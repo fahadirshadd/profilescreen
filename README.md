@@ -1,16 +1,9 @@
 # profilescreen
 
-A new Flutter project.
+A Practice Flutter project.
 
-## Getting Started
+It's the UI clone of a profile Screen for a Job assessment test.
 
-This project is a starting point for a Flutter application.
+Some Icons in the UI design were not available in the flutter icons library, So I used alternatives of those icons due to the short time. Hope so It can help understand about the concepts used.
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
