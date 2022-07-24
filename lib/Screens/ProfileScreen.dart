@@ -80,6 +80,27 @@ class _ProfileScreenState extends State<ProfileScreen> {
                 buildSettingsCard(context,'Help & Support',Icons.help_outline_rounded),
                 buildSettingsCard(context,'Settings',Icons.settings),
                 buildSettingsCard(context,'Invite a Friend',Icons.add_box_outlined),
+                SizedBox(height: 20,),
+                InkWell(
+                  onTap: (){
+
+                  },
+                  child: Container(
+                    width: MediaQuery.of(context).size.width,
+                    height: MediaQuery.of(context).size.height/12,
+                    decoration: BoxDecoration(
+                        color: AppColors.black,
+                        borderRadius: BorderRadius.all(Radius.circular(25))),
+                    child: Center(
+                      child: CustomText(
+                        text: "Logout",
+                        fontSize: 20.0,
+                        fontWeight: FontWeight.bold,
+                        color: AppColors.white,
+                      ),
+                    ),
+                  ),
+                ),
               ],
             ),
           ),
